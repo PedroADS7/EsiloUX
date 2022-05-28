@@ -1,0 +1,236 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Lato:wght@300;400&family=Open+Sans:wght@300;500&family=Roboto:wght@100;300;400&display=swap');
+
+
+/* reset de propriedades */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: blueviolet; */
+    color: #9A9A9A;
+    height: 100%;
+    
+}
+
+header {
+    height: 70px;
+ 
+}
+.header-flex{
+   display: flex;
+    justify-content: space-between;           
+    background-color: #727272;
+    align-items: center;
+
+}
+.container-grid{
+max-width: 1100px;
+margin: 0  auto;
+border: 2px dotted salmon;
+
+
+
+}
+.direitos{
+    text-align: center;
+    max-width: 1100px;
+    margin: 20px  auto;
+    border: 2px dotted salmon; 
+    background-color: #ffffff;
+    font-family:'Lato', sans-serif;;
+    padding-left: 20px;
+
+}
+
+
+/* h1 {
+    font-size: 40px;
+    font-family:'Lato', sans-serif;;
+    font-weight: 100;
+    border: 1px solid black;
+    width: 400px;
+    text-shadow: 0px 0px 6px rgba(red, green, blue, alpha);
+    color: rgba(10, 10, 10, 0.583);
+    text-align: center;
+ 
+} */
+
+h1 {
+    
+    font-family:'Lato', sans-serif;;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+
+
+nav {
+    border: 2px dotted rgb(132, 132, 132);
+}
+nav a { 
+   padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(93, 91, 91);
+    font-family:'Lato', sans-serif;;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    border: 1px solid rgb(113, 113, 113);
+}
+nav a:hover {
+background-color: rgb(0, 0, 0);
+text-decoration: underline;
+border-radius: 15px;
+
+
+}
+h1 span {
+    font-family: 'Comic Neue', cursive; 
+    color: rgb(255, 255, 255);
+}
+
+main{
+   justify-content: space-between;
+   display: flex;
+    margin-top: 20px !important; 
+}
+body{
+color: #727272;
+background-color: #cac7c7;
+/* border: 1px solid rgb(250, 250, 250); */
+/* height: 100%; */
+}
+
+
+/* html{
+    border: 1px solid rgb(255, 255, 255);
+height: 100%; */
+
+
+
+section{
+background-color: white;
+width: 75%;
+height: 100%;
+}
+
+aside{
+    font-weight: 300;
+width: 20%;
+height: 100%;
+}
+
+section img{
+    width: 100%;
+}
+section h2{
+    margin: 20px;
+}
+section p{
+    margin: 20px;
+}
+aside article{
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+aside article h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: 1px solid #efefef;
+
+  
+
+}
+aside article h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: 1px solid #efefef;
+}
+
+aside article h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: 1px solid #efefef;
+}
+aside article ul li{
+margin-left: 30px;
+
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    width: 80%;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-items: center;
+    
+    
+    
+    
+}
+aside article form input{
+    width: 75%;
+    height: 30px;
+    border: 2px  solid #efefef;
+
+}
+aside article form button{
+    width: 18%;
+    height: 30px;
+}
+aside article li{
+margin-left: 30px;
+margin-right: 20px;
+}
+
+aside article p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside article ul{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+ 
+}
+aside article form .inscreva-se {
+margin: 0 auto ;   /*centralizar o input*/
+
+}
+aside artical button{
+    width: 18%;
+    height: 30px;
+    background-color: #727272;
+    border: 2px solid #727272;
+    color: white;
+}
