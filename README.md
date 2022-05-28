@@ -1,2 +1,2 @@
 # EsiloUX
-Meu primeiro site html e css
+Meu primeiro  projeto de aprendizagem HTML  e CSS, disponivelem em: 
